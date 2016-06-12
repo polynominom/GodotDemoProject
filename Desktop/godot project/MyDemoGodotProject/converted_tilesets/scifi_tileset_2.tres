@@ -1,0 +1,358 @@
+[gd_resource type="TileSet" load_steps=45 format=1]
+
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Acid (1).png" type="Texture" id=1]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Acid (2).png" type="Texture" id=2]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Fence (2).png" type="Texture" id=3]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Fence (3).png" type="Texture" id=4]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Spike.png" type="Texture" id=5]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Tile (1).png" type="Texture" id=6]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Tile (10).png" type="Texture" id=7]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Tile (11).png" type="Texture" id=8]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Tile (12).png" type="Texture" id=9]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Tile (13).png" type="Texture" id=10]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Tile (14).png" type="Texture" id=11]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Tile (15).png" type="Texture" id=12]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/BGTile (1).png" type="Texture" id=13]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Tile (2).png" type="Texture" id=14]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Tile (3).png" type="Texture" id=15]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Tile (4).png" type="Texture" id=16]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Tile (5).png" type="Texture" id=17]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Objects/Barrel (1).png" type="Texture" id=18]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Objects/DoorLocked.png" type="Texture" id=19]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Objects/Box.png" type="Texture" id=20]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Objects/Barrel (2).png" type="Texture" id=21]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Objects/DoorOpen.png" type="Texture" id=22]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Objects/DoorUnlocked.png" type="Texture" id=23]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/BGTile (2).png" type="Texture" id=24]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Objects/Saw.png" type="Texture" id=25]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Objects/Switch (1).png" type="Texture" id=26]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Objects/Switch (2).png" type="Texture" id=27]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/BGTile (3).png" type="Texture" id=28]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/BGTile (4).png" type="Texture" id=29]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/BGTile (5).png" type="Texture" id=30]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/BGTile (6).png" type="Texture" id=31]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/BGTile (7).png" type="Texture" id=32]
+[ext_resource path="res://tilesets/FreeSciFiPlatform/png/Tiles/Fence (1).png" type="Texture" id=33]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -127.298, -116.49, -117.78, -126.781, 127.308, -126.781, 128.895, -67.2389, -116.987, -66.5038, -128.884, -79.7355 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -117.102, -128.271, 126.613, -127.731, 126.613, -68.291, -118.851, -67.7507, -128.763, -79.6387, -128.18, -116.383 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -127.28, -68.0814, -126.753, -128.065, 127.929, -127.578, 128.455, -66.6184 )
+
+[sub_resource type="ConvexPolygonShape2D" id=4]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -127.635, -68.2814, -127.635, -127.29, 117.98, -127.95, 128.584, -117.536, 127.62, -76.7773, 118.122, -66.6544 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -116.345, -66.3276, -127.893, -77.9811, -128.506, -116.203, -116.614, -128.515, 115.145, -128.817, 128.746, -115.548, 128.488, -78.1653, 118.202, -66.646 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -128.297, -66.645, -128.819, -126.931, 127.441, -127.419, 127.949, -66.9119 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -128.035, -66.4, -128.751, -128.098, 117.417, -129.306, 128.095, -117.724, 127.762, -77.2043, 117.199, -67.0646 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -85.6267, 117.943, -86.4199, -118.756, 88.0767, -117.286, 89.6631, 119.413 )
+
+[sub_resource type="ConvexPolygonShape2D" id=9]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -138.855, -203.203, -119.111, -225.26, 124.64, -226.488, 137.887, -206.844, 140.537, 210.587, 119.341, 233.914, -117.786, 230.231, -137.657, 209.359 )
+
+[sub_resource type="ConvexPolygonShape2D" id=10]
+
+custom_solver_bias = 0.0
+points = Vector2Array( -127.344, -92.7435, -96.4424, -122.89, 95.4756, -122.89, 129.631, -92.7435, 131.257, 91.1519, 100.355, 124.313, -94.816, 125.821, -127.344, 94.1665 )
+
+[sub_resource type="CircleShape2D" id=11]
+
+custom_solver_bias = 0.0
+radius = 181.366
+
+[resource]
+
+0/name = "Tile1"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( 0, 0 )
+0/region = Rect2( 0, 0, 0, 0 )
+0/occluder_offset = Vector2( 128, 128 )
+0/navigation_offset = Vector2( 128, 128 )
+0/shape_offset = Vector2( 0, 0 )
+0/shapes = [  ]
+1/name = "Tile2"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( 0, 0 )
+1/region = Rect2( 0, 0, 0, 0 )
+1/occluder_offset = Vector2( 128, 128 )
+1/navigation_offset = Vector2( 128, 128 )
+1/shape_offset = Vector2( 0, 0 )
+1/shapes = [  ]
+2/name = "Tile3"
+2/texture = ExtResource( 13 )
+2/tex_offset = Vector2( 0, 0 )
+2/region = Rect2( 0, 0, 0, 0 )
+2/occluder_offset = Vector2( 128, 128 )
+2/navigation_offset = Vector2( 128, 128 )
+2/shape_offset = Vector2( 0, 0 )
+2/shapes = [  ]
+3/name = "Tile4"
+3/texture = ExtResource( 24 )
+3/tex_offset = Vector2( 0, 0 )
+3/region = Rect2( 0, 0, 0, 0 )
+3/occluder_offset = Vector2( 128, 128 )
+3/navigation_offset = Vector2( 128, 128 )
+3/shape_offset = Vector2( 0, 0 )
+3/shapes = [  ]
+4/name = "Tile5"
+4/texture = ExtResource( 28 )
+4/tex_offset = Vector2( 0, 0 )
+4/region = Rect2( 0, 0, 0, 0 )
+4/occluder_offset = Vector2( 128, 128 )
+4/navigation_offset = Vector2( 128, 128 )
+4/shape_offset = Vector2( 0, 0 )
+4/shapes = [  ]
+5/name = "Tile6"
+5/texture = ExtResource( 29 )
+5/tex_offset = Vector2( 0, 0 )
+5/region = Rect2( 0, 0, 0, 0 )
+5/occluder_offset = Vector2( 128, 128 )
+5/navigation_offset = Vector2( 128, 128 )
+5/shape_offset = Vector2( 0, 0 )
+5/shapes = [  ]
+6/name = "Tile7"
+6/texture = ExtResource( 30 )
+6/tex_offset = Vector2( 0, 0 )
+6/region = Rect2( 0, 0, 0, 0 )
+6/occluder_offset = Vector2( 128, 128 )
+6/navigation_offset = Vector2( 128, 128 )
+6/shape_offset = Vector2( 0, 0 )
+6/shapes = [  ]
+7/name = "Tile8"
+7/texture = ExtResource( 31 )
+7/tex_offset = Vector2( 0, 0 )
+7/region = Rect2( 0, 0, 0, 0 )
+7/occluder_offset = Vector2( 128, 128 )
+7/navigation_offset = Vector2( 128, 128 )
+7/shape_offset = Vector2( 0, 0 )
+7/shapes = [  ]
+8/name = "Tile9"
+8/texture = ExtResource( 32 )
+8/tex_offset = Vector2( 0, 0 )
+8/region = Rect2( 0, 0, 0, 0 )
+8/occluder_offset = Vector2( 128, 128 )
+8/navigation_offset = Vector2( 128, 128 )
+8/shape_offset = Vector2( 0, 0 )
+8/shapes = [  ]
+9/name = "Tile10"
+9/texture = ExtResource( 33 )
+9/tex_offset = Vector2( 0, 0 )
+9/region = Rect2( 0, 0, 0, 0 )
+9/occluder_offset = Vector2( 128, 128 )
+9/navigation_offset = Vector2( 128, 128 )
+9/shape_offset = Vector2( 0, 0 )
+9/shapes = [  ]
+10/name = "Tile11"
+10/texture = ExtResource( 3 )
+10/tex_offset = Vector2( 0, 0 )
+10/region = Rect2( 0, 0, 0, 0 )
+10/occluder_offset = Vector2( 128, 128 )
+10/navigation_offset = Vector2( 128, 128 )
+10/shape_offset = Vector2( 0, 0 )
+10/shapes = [  ]
+11/name = "Tile12"
+11/texture = ExtResource( 4 )
+11/tex_offset = Vector2( 0, 0 )
+11/region = Rect2( 0, 0, 0, 0 )
+11/occluder_offset = Vector2( 128, 128 )
+11/navigation_offset = Vector2( 128, 128 )
+11/shape_offset = Vector2( 0, 0 )
+11/shapes = [  ]
+12/name = "Tile13"
+12/texture = ExtResource( 5 )
+12/tex_offset = Vector2( 0, 0 )
+12/region = Rect2( 0, 0, 0, 0 )
+12/occluder_offset = Vector2( 128, 128 )
+12/navigation_offset = Vector2( 128, 128 )
+12/shape_offset = Vector2( 0, 0 )
+12/shapes = [  ]
+13/name = "Tile14"
+13/texture = ExtResource( 6 )
+13/tex_offset = Vector2( 0, 0 )
+13/region = Rect2( 0, 0, 0, 0 )
+13/occluder_offset = Vector2( 128, 128 )
+13/navigation_offset = Vector2( 128, 128 )
+13/shape_offset = Vector2( 128, 128 )
+13/shapes = [ SubResource( 1 ) ]
+14/name = "Tile15"
+14/texture = ExtResource( 7 )
+14/tex_offset = Vector2( 0, 0 )
+14/region = Rect2( 0, 0, 0, 0 )
+14/occluder_offset = Vector2( 128, 128 )
+14/navigation_offset = Vector2( 128, 128 )
+14/shape_offset = Vector2( 0, 0 )
+14/shapes = [  ]
+15/name = "Tile16"
+15/texture = ExtResource( 8 )
+15/tex_offset = Vector2( 0, 0 )
+15/region = Rect2( 0, 0, 0, 0 )
+15/occluder_offset = Vector2( 128, 128 )
+15/navigation_offset = Vector2( 128, 128 )
+15/shape_offset = Vector2( 0, 0 )
+15/shapes = [  ]
+16/name = "Tile17"
+16/texture = ExtResource( 9 )
+16/tex_offset = Vector2( 0, 0 )
+16/region = Rect2( 0, 0, 0, 0 )
+16/occluder_offset = Vector2( 128, 128 )
+16/navigation_offset = Vector2( 128, 128 )
+16/shape_offset = Vector2( 128, 128 )
+16/shapes = [ SubResource( 2 ) ]
+17/name = "Tile18"
+17/texture = ExtResource( 10 )
+17/tex_offset = Vector2( 0, 0 )
+17/region = Rect2( 0, 0, 0, 0 )
+17/occluder_offset = Vector2( 128, 128 )
+17/navigation_offset = Vector2( 128, 128 )
+17/shape_offset = Vector2( 128, 128 )
+17/shapes = [ SubResource( 3 ) ]
+18/name = "Tile19"
+18/texture = ExtResource( 11 )
+18/tex_offset = Vector2( 0, 0 )
+18/region = Rect2( 0, 0, 0, 0 )
+18/occluder_offset = Vector2( 128, 128 )
+18/navigation_offset = Vector2( 128, 128 )
+18/shape_offset = Vector2( 128, 128 )
+18/shapes = [ SubResource( 4 ) ]
+19/name = "Tile20"
+19/texture = ExtResource( 12 )
+19/tex_offset = Vector2( 0, 0 )
+19/region = Rect2( 0, 0, 0, 0 )
+19/occluder_offset = Vector2( 128, 128 )
+19/navigation_offset = Vector2( 128, 128 )
+19/shape_offset = Vector2( 128, 128 )
+19/shapes = [ SubResource( 5 ) ]
+20/name = "Tile21"
+20/texture = ExtResource( 14 )
+20/tex_offset = Vector2( 0, 0 )
+20/region = Rect2( 0, 0, 0, 0 )
+20/occluder_offset = Vector2( 128, 128 )
+20/navigation_offset = Vector2( 128, 128 )
+20/shape_offset = Vector2( 128, 128 )
+20/shapes = [ SubResource( 6 ) ]
+21/name = "Tile22"
+21/texture = ExtResource( 15 )
+21/tex_offset = Vector2( 0, 0 )
+21/region = Rect2( 0, 0, 0, 0 )
+21/occluder_offset = Vector2( 128, 128 )
+21/navigation_offset = Vector2( 128, 128 )
+21/shape_offset = Vector2( 128, 128 )
+21/shapes = [ SubResource( 7 ) ]
+22/name = "Tile23"
+22/texture = ExtResource( 16 )
+22/tex_offset = Vector2( 0, 0 )
+22/region = Rect2( 0, 0, 0, 0 )
+22/occluder_offset = Vector2( 128, 128 )
+22/navigation_offset = Vector2( 128, 128 )
+22/shape_offset = Vector2( 0, 0 )
+22/shapes = [  ]
+23/name = "Tile24"
+23/texture = ExtResource( 17 )
+23/tex_offset = Vector2( 0, 0 )
+23/region = Rect2( 0, 0, 0, 0 )
+23/occluder_offset = Vector2( 128, 128 )
+23/navigation_offset = Vector2( 128, 128 )
+23/shape_offset = Vector2( 0, 0 )
+23/shapes = [  ]
+24/name = "Tile25"
+24/texture = ExtResource( 18 )
+24/tex_offset = Vector2( 0, 0 )
+24/region = Rect2( 0, 0, 0, 0 )
+24/occluder_offset = Vector2( 88.5, 119 )
+24/navigation_offset = Vector2( 88.5, 119 )
+24/shape_offset = Vector2( 88.5, 119 )
+24/shapes = [ SubResource( 8 ) ]
+25/name = "Tile26"
+25/texture = ExtResource( 19 )
+25/tex_offset = Vector2( 0, 0 )
+25/region = Rect2( 0, 0, 0, 0 )
+25/occluder_offset = Vector2( 140, 232 )
+25/navigation_offset = Vector2( 140, 232 )
+25/shape_offset = Vector2( 140, 232 )
+25/shapes = [ SubResource( 9 ) ]
+26/name = "Tile27"
+26/texture = ExtResource( 20 )
+26/tex_offset = Vector2( 0, 0 )
+26/region = Rect2( 0, 0, 0, 0 )
+26/occluder_offset = Vector2( 128, 128 )
+26/navigation_offset = Vector2( 128, 128 )
+26/shape_offset = Vector2( 128, 128 )
+26/shapes = [ SubResource( 10 ) ]
+27/name = "Tile28"
+27/texture = ExtResource( 21 )
+27/tex_offset = Vector2( 0, 0 )
+27/region = Rect2( 0, 0, 0, 0 )
+27/occluder_offset = Vector2( 88.5, 119 )
+27/navigation_offset = Vector2( 88.5, 119 )
+27/shape_offset = Vector2( 88.5, 119 )
+27/shapes = [ SubResource( 8 ) ]
+28/name = "Tile29"
+28/texture = ExtResource( 22 )
+28/tex_offset = Vector2( 0, 0 )
+28/region = Rect2( 0, 0, 0, 0 )
+28/occluder_offset = Vector2( 140, 232 )
+28/navigation_offset = Vector2( 140, 232 )
+28/shape_offset = Vector2( 140, 232 )
+28/shapes = [ SubResource( 9 ) ]
+29/name = "Tile30"
+29/texture = ExtResource( 23 )
+29/tex_offset = Vector2( 0, 0 )
+29/region = Rect2( 0, 0, 0, 0 )
+29/occluder_offset = Vector2( 140.5, 232 )
+29/navigation_offset = Vector2( 140.5, 232 )
+29/shape_offset = Vector2( 140.5, 232 )
+29/shapes = [ SubResource( 9 ) ]
+30/name = "Tile31"
+30/texture = ExtResource( 25 )
+30/tex_offset = Vector2( 0, 0 )
+30/region = Rect2( 0, 0, 0, 0 )
+30/occluder_offset = Vector2( 178.5, 180.5 )
+30/navigation_offset = Vector2( 178.5, 180.5 )
+30/shape_offset = Vector2( 178.5, 180.5 )
+30/shapes = [ SubResource( 11 ) ]
+31/name = "Tile32"
+31/texture = ExtResource( 26 )
+31/tex_offset = Vector2( 0, 0 )
+31/region = Rect2( 0, 0, 0, 0 )
+31/occluder_offset = Vector2( 36, 128.5 )
+31/navigation_offset = Vector2( 36, 128.5 )
+31/shape_offset = Vector2( 0, 0 )
+31/shapes = [  ]
+32/name = "Tile33"
+32/texture = ExtResource( 27 )
+32/tex_offset = Vector2( 0, 0 )
+32/region = Rect2( 0, 0, 0, 0 )
+32/occluder_offset = Vector2( 36, 128.5 )
+32/navigation_offset = Vector2( 36, 128.5 )
+32/shape_offset = Vector2( 0, 0 )
+32/shapes = [  ]
+
